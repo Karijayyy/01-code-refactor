@@ -8,7 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*headers*/
+/*removing the . from header takes away the color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,16 +17,16 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,15 +34,15 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*text color*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*image under nav bar*/
 .hero {
     height: 800px;
     width: 100%;
@@ -75,7 +76,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*benefits image section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,7 +135,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*search engine image section*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,7 +162,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*aside images*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,7 +189,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*footers*/
 .footer {
     padding: 30px;
     clear: both;
@@ -196,6 +197,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
+    text-align: center;
 }
