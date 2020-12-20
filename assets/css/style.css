@@ -8,8 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
+
 /*headers*/
-/*removing the . from header takes away the color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,16 +17,15 @@ body {
     color: #ffffff;
 }
 
-header h1 {
+/*Horiseon Header*/
+.header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,15 +33,19 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+/*lists*/
+ul {
     list-style-type: none;
+    margin: 20;
+    padding-right: 8px;
+    float: right;
 }
 
-header div ul li {
+li {
     display: inline-block;
-    margin-left: 25px;
 }
-/*text color*/
+
+/*links*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -76,6 +79,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 /*benefits image section*/
 .benefits {
     margin-right: 20px;
@@ -196,9 +200,5 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h4 {
     font-size: 20px;
-    text-align: center;
 }
