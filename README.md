@@ -1,2 +1,12 @@
 # 01-code-refactor
-I have updated the following HTML & CSS codes. I have added semantic html, added accessibilty attributes, changed the heading attibutes to fall into sequential order, fixed a broken link & changed the title to be more descriptive. I have also organized the code so its easier to read. 
+
+## Project Description 
+I have updated the users request for the following. Adding semantic html, cleaned up CSS & HTML to make it more user friendly, added accessibility attributes, changed headings to fall into sequential order, fixed a broken link, and changed the title.
+
+## Project Motivation 
+The project motivation was to help me understand  HTML and CSS basics for a foundation to build off of.
+
+## Deployed Site
+https://karijayyy.github.io/01-code-refactor/
+
+## Screen Shot
